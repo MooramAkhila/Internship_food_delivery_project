@@ -1,0 +1,143 @@
+/* Hero Section */
+.hero__content {
+  padding-top: 70px;
+}
+
+.hero__title {
+  font-size: 2.5rem;
+  line-height: 55px;
+}
+
+.hero__title span {
+  color: #df2020;
+}
+
+.hero__content p {
+  font-size: 1rem;
+  line-height: 30px;
+  color: #777;
+}
+
+.order__btn {
+  border: none;
+  outline: none;
+  padding: 7px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  background: #df2020;
+  color: #fff;
+  font-weight: 600;
+}
+
+.order__btn:hover {
+  background: #212245;
+}
+
+.order__btn:hover a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.hero__img {
+  margin: 40px;
+}
+
+/* QuoteContainer Section */
+.quote-container {
+  margin-top: 50px;
+  padding: 30px 0;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.quote-container .row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: nowrap; /* Ensure no wrapping */
+  gap: 2rem;
+}
+
+.quote-container .logo {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 20px;
+}
+
+.quote-container .quote {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #333;
+  max-width: 200px;
+  line-height: 1.5;
+}
+
+/* Media Queries for responsiveness */
+@media only screen and (max-width: 768px) {
+  .hero__content h5 {
+    font-size: 1rem;
+  }
+
+  .hero__content p {
+    font-size: 0.8rem;
+    line-height: 25px;
+  }
+
+  .hero__title {
+    font-size: 1.5rem;
+    line-height: 40px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .quote-container .row {
+    justify-content: space-between;
+    gap: 1.5rem;
+  }
+
+  .quote-container .logo {
+    width: 70px;
+    height: 70px;
+  }
+
+  .quote-container .quote {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .quote-container .row {
+    flex-wrap: wrap; /* Allow wrapping for smaller screens */
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .quote-container .logo {
+    width: 60px;
+    height: 60px;
+  }
+
+  .quote-container .quote {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .quote-container {
+    padding: 20px 0;
+  }
+
+  .quote-container .row {
+    flex-direction: column; /* Stack components vertically */
+    gap: 1.5rem;
+  }
+
+  .quote-container .logo {
+    width: 50px;
+    height: 50px;
+  }
+
+  .quote-container .quote {
+    font-size: 0.9rem;
+  }
+}

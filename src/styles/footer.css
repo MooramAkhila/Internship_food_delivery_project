@@ -1,0 +1,109 @@
+/* Keep the existing styles for the main footer */
+.footer {
+  padding: 40px 20px;
+  background: #fde4e4; /* Original background */
+  color: #212245;      /* Original text color */
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 2rem;
+  width: 100%;
+}
+
+.footer__logo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer__logo img {
+  width: 150px;
+  margin-bottom: 1rem;
+}
+
+.footer__logo h5 {
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.footer__logo p {
+  font-size: 1rem;
+  line-height: 1.6;
+  max-width: 200px;
+}
+
+.footer__section {
+  flex: 1;
+}
+
+.footer__title {
+  font-size: 1.2rem;
+  color: #212245; /* Keep original color */
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.delivery__time-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+  color: #212245; /* Keep original color */
+}
+
+.footer__contact {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #212245; /* Keep original color */
+}
+
+.footer__contact a {
+  color: #ff6347; /* Keep original link color */
+  text-decoration: none;
+}
+
+.footer__contact a:hover {
+  color: #212245;
+}
+
+/* Bottom Section - Copyright */
+.footer__bottom {
+  width: 100%;
+  text-align: center;
+  margin-top: 2rem;
+  border-top: 1px solid #444; /* Subtle border */
+  padding-top: 1rem;
+  background-color: #000; /* Black background for copyright */
+  color: #fff; /* White text for copyright */
+}
+
+.footer__bottom p {
+  font-size: 0.9rem;
+  color: #fff; /* White text on black background */
+}
+
+/* Alternatively, if you prefer brown */
+.footer__bottom.brown {
+  background-color: #8b4513; /* Brown background */
+  color: #fff;               /* White text on brown background */
+}
+
+/* Mobile Responsive */
+@media only screen and (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer__logo,
+  .footer__section {
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer__bottom {
+    margin-top: 1rem;
+  }
+}
