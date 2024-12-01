@@ -1,0 +1,59 @@
+.login-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.login-form {
+    width: 50%;
+    padding: 20px;
+}
+
+.login-form h2 {
+    margin-bottom: 20px;
+}
+
+.login-form input {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.login-form button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.login-image img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+.logout-button {
+    color: black;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.logout-button:hover {
+    transform: scale(1.05);
+    /* Slight zoom effect */
+}
+
+.logout-button:active {
+    transform: scale(0.95);
+    /* Slightly smaller on click */
+}
