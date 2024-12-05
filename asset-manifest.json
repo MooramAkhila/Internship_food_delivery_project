@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Internship_food_delivery_project/static/css/main.924b1623.css",
+    "main.js": "/Internship_food_delivery_project/static/js/main.5d74ec72.js",
+    "static/media/remixicon.svg?t=1590207869815": "/Internship_food_delivery_project/static/media/remixicon.9cedd2150922ead84869.svg",
+    "static/media/delivery-guy.png": "/Internship_food_delivery_project/static/media/delivery-guy.c0194ba7bd1e11895fd0.png",
+    "static/media/product_4.3.png": "/Internship_food_delivery_project/static/media/product_4.3.2df1cebb0cf62346965c.png",
+    "static/media/remixicon.eot?t=1590207869815": "/Internship_food_delivery_project/static/media/remixicon.5cb99e6cba5a4619063f.eot",
+    "static/media/remixicon.ttf?t=1590207869815": "/Internship_food_delivery_project/static/media/remixicon.f2616f597cf98f38d234.ttf",
+    "static/media/product_3.1.jpg": "/Internship_food_delivery_project/static/media/product_3.1.9c207cdf68c9700b11ce.jpg",
+    "static/media/product_2.2.jpg": "/Internship_food_delivery_project/static/media/product_2.2.4967c9cbe3fec366a31a.jpg",
+    "static/media/product_2.3.jpg": "/Internship_food_delivery_project/static/media/product_2.3.3914f9eb0c0b372910ea.jpg",
+    "static/media/product_4.2.jpg": "/Internship_food_delivery_project/static/media/product_4.2.e82e43e0a3fc5dab999e.jpg",
+    "static/media/product_4.1.jpg": "/Internship_food_delivery_project/static/media/product_4.1.3c8ecc492220a3922731.jpg",
+    "static/media/product_3.3.jpg": "/Internship_food_delivery_project/static/media/product_3.3.f482f459be92f0045d9a.jpg",
+    "static/media/product_3.2.jpg": "/Internship_food_delivery_project/static/media/product_3.2.ebcb16b50e4ef0060a5e.jpg",
+    "static/media/product_2.1.jpg": "/Internship_food_delivery_project/static/media/product_2.1.f15385546f60c8d0f0d9.jpg",
+    "static/media/remixicon.woff?t=1590207869815": "/Internship_food_delivery_project/static/media/remixicon.8d09fa11700ed63cf96e.woff",
+    "static/media/remixicon.woff2?t=1590207869815": "/Internship_food_delivery_project/static/media/remixicon.90668f6f9b3c2c18a090.woff2",
+    "static/media/res-logo.png": "/Internship_food_delivery_project/static/media/res-logo.2f9021c4ef5fe532038e.png",
+    "index.html": "/Internship_food_delivery_project/index.html",
+    "main.924b1623.css.map": "/Internship_food_delivery_project/static/css/main.924b1623.css.map",
+    "main.5d74ec72.js.map": "/Internship_food_delivery_project/static/js/main.5d74ec72.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.924b1623.css",
+    "static/js/main.5d74ec72.js"
+  ]
+}
